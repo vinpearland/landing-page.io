@@ -1,0 +1,38 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    background: url(/Bootstrap/vietnam.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+}
+
+.buffer {
+    height: 10rem;
+}
+
+.btn {
+    font-weight: 500;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    text-transform: uppercase;
+}
+
+.btn-primary {
+    background-color: #f08080;
+    padding: 1rem 2rem;
+    border-color: #ffa07a;
+}
+
+.btn-primary:hover {
+    background-color: rgb(243, 116, 116);
+    border-width: 2px;
+    border-color: #ffa07a;
+}
